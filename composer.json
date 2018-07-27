@@ -1,0 +1,28 @@
+{
+    "name": "rafael.paulino/monetizze",
+    "description": "Essa é uma biblioteca de acesso a Monetizze.",
+    "keywords": ["monetizze api","afiliados", "php monetizze library", "biblioteca de acesso a monetizze"],
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Rafael Paulino",
+            "email": "rafaclasses@gmail.com",
+            "homepage": "http://rafaacademy.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "guzzlehttp/guzzle": "^6.3",
+        "monolog/monolog": "^1.23"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "6"
+    },
+    "autoload": {
+        "psr-4": { "Monetizze\\": "src/" },
+        "classmap": [
+            "src"
+        ]
+    }
+}
